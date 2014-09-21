@@ -1,5 +1,5 @@
 //
-//  NHDWViewController.h
+//  NHDWTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Nicholas Wakeford on 9/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHDWViewController : UIViewController
+@interface NHDWTableViewController : UITableViewController
 
 @end

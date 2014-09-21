@@ -14,13 +14,13 @@
 		12FE4F0419CE6ACD00E01B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE4F0319CE6ACD00E01B51 /* main.m */; };
 		12FE4F0819CE6ACD00E01B51 /* NHDWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE4F0719CE6ACD00E01B51 /* NHDWAppDelegate.m */; };
 		12FE4F0B19CE6ACD00E01B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FE4F0919CE6ACD00E01B51 /* Main.storyboard */; };
-		12FE4F0E19CE6ACD00E01B51 /* NHDWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE4F0D19CE6ACD00E01B51 /* NHDWViewController.m */; };
 		12FE4F1019CE6ACD00E01B51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FE4F0F19CE6ACD00E01B51 /* Images.xcassets */; };
 		12FE4F1719CE6ACD00E01B51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE4F1619CE6ACD00E01B51 /* XCTest.framework */; };
 		12FE4F1819CE6ACD00E01B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE4EF719CE6ACD00E01B51 /* Foundation.framework */; };
 		12FE4F1919CE6ACD00E01B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE4EFB19CE6ACD00E01B51 /* UIKit.framework */; };
 		12FE4F2119CE6ACD00E01B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12FE4F1F19CE6ACD00E01B51 /* InfoPlist.strings */; };
 		12FE4F2319CE6ACD00E01B51 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE4F2219CE6ACD00E01B51 /* UITableViewController_Challenge_SolutionTests.m */; };
+		12FE4F2E19CE6D6600E01B51 /* NHDWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE4F2D19CE6D6600E01B51 /* NHDWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		12FE4F0619CE6ACD00E01B51 /* NHDWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHDWAppDelegate.h; sourceTree = "<group>"; };
 		12FE4F0719CE6ACD00E01B51 /* NHDWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHDWAppDelegate.m; sourceTree = "<group>"; };
 		12FE4F0A19CE6ACD00E01B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12FE4F0C19CE6ACD00E01B51 /* NHDWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHDWViewController.h; sourceTree = "<group>"; };
-		12FE4F0D19CE6ACD00E01B51 /* NHDWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHDWViewController.m; sourceTree = "<group>"; };
 		12FE4F0F19CE6ACD00E01B51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12FE4F1519CE6ACD00E01B51 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FE4F1619CE6ACD00E01B51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		12FE4F1E19CE6ACD00E01B51 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		12FE4F2019CE6ACD00E01B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12FE4F2219CE6ACD00E01B51 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		12FE4F2C19CE6D6600E01B51 /* NHDWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDWTableViewController.h; sourceTree = "<group>"; };
+		12FE4F2D19CE6D6600E01B51 /* NHDWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				12FE4F0619CE6ACD00E01B51 /* NHDWAppDelegate.h */,
 				12FE4F0719CE6ACD00E01B51 /* NHDWAppDelegate.m */,
 				12FE4F0919CE6ACD00E01B51 /* Main.storyboard */,
-				12FE4F0C19CE6ACD00E01B51 /* NHDWViewController.h */,
-				12FE4F0D19CE6ACD00E01B51 /* NHDWViewController.m */,
+				12FE4F2C19CE6D6600E01B51 /* NHDWTableViewController.h */,
+				12FE4F2D19CE6D6600E01B51 /* NHDWTableViewController.m */,
 				12FE4F0F19CE6ACD00E01B51 /* Images.xcassets */,
 				12FE4EFE19CE6ACD00E01B51 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FE4F0E19CE6ACD00E01B51 /* NHDWViewController.m in Sources */,
 				12FE4F0419CE6ACD00E01B51 /* main.m in Sources */,
+				12FE4F2E19CE6D6600E01B51 /* NHDWTableViewController.m in Sources */,
 				12FE4F0819CE6ACD00E01B51 /* NHDWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
